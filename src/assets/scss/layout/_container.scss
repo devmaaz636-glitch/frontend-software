@@ -1,0 +1,85 @@
+.pageWrapper {
+  min-height: 100vh;
+}
+.contentArea {
+  // flex-grow: 1;
+  // width: 80%;
+
+  // background-image: url('../../images/bgg.jpg');
+  background: linear-gradient(#1cc498, #9198e5);
+}
+x .sidebar {
+  z-index: 265686;
+}
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.card {
+  box-shadow: $card-box-shadow;
+  margin-bottom: 30px;
+}
+
+.circle-box {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  &.lg-box {
+    width: 60px;
+    height: 60px;
+    font-size: 21px;
+    line-height: 60px;
+  }
+}
+.button-group .btn {
+  margin: 3px;
+}
+table th {
+  font-weight: 500;
+}
+
+.table > :not(:first-child) {
+  border-top: 2px solid;
+}
+.table-borderless > :not(:first-child) {
+  border-top-width: 0;
+}
+.w-inherits {
+  width: inherit;
+}
+
+/* Sidebar container styles */
+.sidebar-container {
+  position: fixed;
+  margin-top: 60px;
+  top: 0;
+  left: 0;
+  width: 340px;
+  height: 100%;
+  background-color: #ffffff; /* Adjust as needed */
+  z-index: 1000; /* Ensure it is above other content */
+  transform: translateX(-100%); /* Hidden by default */
+  transition: transform 0.8s ease; /* Smooth transition effect */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Optional shadow */
+}
+
+/* Open state for sidebar */
+.sidebar-container.open {
+  transform: translateX(0); /* Moves the sidebar into view */
+}
+
+/* Nav item styles */
+.nav-item-custom {
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover */
+  cursor: pointer;
+}
+
+/* Hover effect for nav items */
+.nav-item-custom:hover {
+  background-color: #6aa7cc; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}

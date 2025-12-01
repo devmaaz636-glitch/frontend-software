@@ -1,0 +1,128 @@
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/914665966092621957/D8DF127D5BC426A8089B269FC1902B63C1673063/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+  height: 100vh;
+  margin: auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* radial-gradient(650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%); */
+}
+
+/* .dashboard {
+  background: linear-gradient(#1cc498, #9198e5);
+} */
+
+@font-face {
+  font-family: "Bootstrap Icons";
+  src: url("https://bicdashboard.vercel.app/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.scrollable-container {
+  scrollbar-width: thin;
+  scrollbar-color: #f9fafe;
+}
+.projectTable :hover {
+  /* background-color: #fff25c; */
+  transform: scale(1); /* Adjust the scale factor as needed */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  } */
+
+/* #radius-shape-2 {
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+    bottom: -60px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#44006b, #ad1fff);
+    overflow: hidden;
+  } */
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+.signupBtn {
+  background-color: #009efb;
+}
+.radioIn {
+  width: 21px;
+}
+.navbar {
+  background-color: #1b1b29 !important;
+}
+.bg-card-color {
+  background-color: #fff !important;
+}
+
+.sc-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* In your stylesheet (e.g., styles.css) */
+
+.sidebarArea {
+  /* Existing styles for the sidebar */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 260px;
+  /* background-color: #1b1b29; */
+  transition: transform 0.3s ease-in-out;
+}
+
+.showSidebar {
+  transform: translateX(0); /* Move the sidebar to the left when open */
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; /* Ensure the header stays on top of other con tent */
+  background-color: #fff; /* Adjust background color as needed */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+}
+
+.top {
+  padding-top: 60px;
+}
+body {
+  overflow-x: hidden;
+}
+.full-layout {
+  transition: filter 0.3s ease-in-out !important;
+}
+
+.full-layout {
+  transition: filter 0.3s ease-in-out !important;
+}
+
+/* .full-layout.sidebar-open .main-content {
+  filter: blur(5px) !important;
+} */
